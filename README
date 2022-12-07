@@ -1,0 +1,5 @@
+REQUIREMENTS:
+- browser (although hardcoded to use firefox now, will be updated later)
+- driver for that browser (geckdriver for firefox)
+- termux with ubuntu subsystem installed (if youre a masochist)
+
