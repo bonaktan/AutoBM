@@ -1,1 +1,4 @@
 push
+.gitignore
+start
+.venv

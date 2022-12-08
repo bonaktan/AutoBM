@@ -1,0 +1,38 @@
+1670470674566	geckodriver	INFO	Listening on 127.0.0.1:34609
+1670470675115	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "32951" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesPROsQ"
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :1
+1670470929696	geckodriver	INFO	Listening on 127.0.0.1:55699
+1670470930241	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "40421" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0klFpa"
+[Parent 2722, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.19567) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.19567) |[1][GFX1-]: glxtest: libEGL missing (t=4.19637) [GFX1-]: glxtest: libEGL missing
+1670470934706	Marionette	INFO	Marionette enabled
+1670470934745	Marionette	INFO	Listening on port 34525
+Read port: 34525
+WebDriver BiDi listening on ws://127.0.0.1:40421
+1670470935739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 2921, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0klFpa/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+DevTools listening on ws://127.0.0.1:40421/devtools/browser/f7b97854-2866-448f-a08d-676308207bfa
+1670470943923	Marionette	INFO	Stopped listening on port 34525
+1670471738857	geckodriver	INFO	Listening on 127.0.0.1:53353
+1670471739379	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "51805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilet0R94m"
+[Parent 9906, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.457) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.457) |[1][GFX1-]: glxtest: libEGL missing (t=4.45771) [GFX1-]: glxtest: libEGL missing
+1670471744109	Marionette	INFO	Marionette enabled
+1670471744150	Marionette	INFO	Listening on port 41825
+Read port: 41825
+WebDriver BiDi listening on ws://127.0.0.1:51805
+1670471745152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 10031, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet0R94m/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51805/devtools/browser/a3830c85-7216-4e6e-9c6d-742d71d3e4b6
+1670471769474	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1670471769479	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
