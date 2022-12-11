@@ -4,3 +4,4 @@ start
 .venv
 credentials
 AutoBM/config.ini
+AutoBM/geckdriver.log
