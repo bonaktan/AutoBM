@@ -2,3 +2,5 @@ push
 .gitignore
 start
 .venv
+credentials
+AutoBM/config.ini

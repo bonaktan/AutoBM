@@ -36,3 +36,286 @@ DevTools listening on ws://127.0.0.1:51805/devtools/browser/a3830c85-7216-4e6e-9
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1670483984479	geckodriver	INFO	Listening on 127.0.0.1:54773
+1670483985041	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "49551" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2aHnhe"
+[Parent 11218, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=5.11383) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=5.11383) |[1][GFX1-]: glxtest: libEGL missing (t=5.11416) [GFX1-]: glxtest: libEGL missing
+1670483990468	Marionette	INFO	Marionette enabled
+1670483990517	Marionette	INFO	Listening on port 36847
+Read port: 36847
+WebDriver BiDi listening on ws://127.0.0.1:49551
+1670483991643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 11359, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2aHnhe/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+DevTools listening on ws://127.0.0.1:49551/devtools/browser/2b74e239-5065-4aa6-a7b4-431e25869670
+[Child 11395, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+1670484627625	Marionette	INFO	Stopped listening on port 36847
+1670655657407	geckodriver	INFO	Listening on 127.0.0.1:33517
+1670655657968	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "34631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilel3Zyb3"
+[Parent 23885, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.59412) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.59412) |[1][GFX1-]: glxtest: libEGL missing (t=4.59505) [GFX1-]: glxtest: libEGL missing
+1670655662846	Marionette	INFO	Marionette enabled
+1670655662883	Marionette	INFO	Listening on port 34293
+Read port: 34293
+WebDriver BiDi listening on ws://127.0.0.1:34631
+1670655663820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 23995, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel3Zyb3/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+DevTools listening on ws://127.0.0.1:34631/devtools/browser/577a5e4b-6d37-4837-99d3-3a67f598302f
+[Child 24015, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+
+(firefox:23885): Gtk-WARNING **: 15:02:40.366: Error loading theme icon 'document-save' for stock: Icon 'document-save' not present in theme elementary-xfce-dark
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670656158762	geckodriver	INFO	Listening on 127.0.0.1:56603
+1670656158797	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "49561" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile967cx5"
+[Parent 26004, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.55416) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.55416) |[1][GFX1-]: glxtest: libEGL missing (t=3.55441) [GFX1-]: glxtest: libEGL missing
+1670656162601	Marionette	INFO	Marionette enabled
+1670656162640	Marionette	INFO	Listening on port 36619
+Read port: 36619
+WebDriver BiDi listening on ws://127.0.0.1:49561
+1670656163416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 26124, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile967cx5/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+DevTools listening on ws://127.0.0.1:49561/devtools/browser/3fda3471-ad41-40dd-ae8b-5a474663eb8d
+[Child 26141, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+1670656187309	Marionette	INFO	Stopped listening on port 36619
+1670656212107	geckodriver	INFO	Listening on 127.0.0.1:57125
+1670656212219	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "54933" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVaL8Gd"
+[Parent 26490, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.38426) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.38426) |[1][GFX1-]: glxtest: libEGL missing (t=3.38446) [GFX1-]: glxtest: libEGL missing
+1670656215789	Marionette	INFO	Marionette enabled
+1670656215821	Marionette	INFO	Listening on port 38223
+Read port: 38223
+WebDriver BiDi listening on ws://127.0.0.1:54933
+1670656216493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 26615, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVaL8Gd/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+DevTools listening on ws://127.0.0.1:54933/devtools/browser/8b214fd9-9208-4ea3-a7d6-aa681e9a483e
+[Child 26632, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670656355606	geckodriver	INFO	Listening on 127.0.0.1:58781
+1670656355632	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "57719" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilew8xvPH"
+[Parent 26977, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.15717) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.15717) |[1][GFX1-]: glxtest: libEGL missing (t=3.15735) [GFX1-]: glxtest: libEGL missing
+1670656358964	Marionette	INFO	Marionette enabled
+1670656358996	Marionette	INFO	Listening on port 45887
+Read port: 45887
+WebDriver BiDi listening on ws://127.0.0.1:57719
+1670656359634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 27080, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilew8xvPH/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+DevTools listening on ws://127.0.0.1:57719/devtools/browser/1e970d25-09f1-4b1c-a134-f65adcf546ea
+[Child 27098, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670671551677	geckodriver	INFO	Listening on 127.0.0.1:47663
+1670671552306	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "57665" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVr36mo"
+[Parent 24205, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=5.01179) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=5.01179) |[1][GFX1-]: glxtest: libEGL missing (t=5.012) [GFX1-]: glxtest: libEGL missing
+1670671557616	Marionette	INFO	Marionette enabled
+1670671557657	Marionette	INFO	Listening on port 38541
+Read port: 38541
+WebDriver BiDi listening on ws://127.0.0.1:57665
+1670671558595	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 24482, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVr36mo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57665/devtools/browser/c3c39fe9-798f-4a27-ad79-6a9e60d02083
+JavaScript error: resource:///modules/TabsList.jsm, line 527: TypeError: this.dropIndicator is null
+[Child 24498, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670671803509	geckodriver	INFO	Listening on 127.0.0.1:51011
+1670671803528	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "54529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileo3hSBo"
+[Parent 25493, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.24581) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.24581) |[1][GFX1-]: glxtest: libEGL missing (t=3.24607) [GFX1-]: glxtest: libEGL missing
+1670671807009	Marionette	INFO	Marionette enabled
+1670671807048	Marionette	INFO	Listening on port 43317
+Read port: 43317
+WebDriver BiDi listening on ws://127.0.0.1:54529
+1670671807956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 25604, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo3hSBo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54529/devtools/browser/43d3cd6c-1f57-4ee9-8847-de201f778711
+[Child 25622, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670671863085	geckodriver	INFO	Listening on 127.0.0.1:54129
+1670671863125	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "40269" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEJxShr"
+[Parent 25972, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.39245) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.39245) |[1][GFX1-]: glxtest: libEGL missing (t=3.39268) [GFX1-]: glxtest: libEGL missing
+1670671866730	Marionette	INFO	Marionette enabled
+1670671866758	Marionette	INFO	Listening on port 40463
+Read port: 40463
+1670671905317	geckodriver	INFO	Listening on 127.0.0.1:52643
+1670671905345	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "54013" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiRCvse"
+[Parent 26065, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.56684) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.56684) |[1][GFX1-]: glxtest: libEGL missing (t=3.56705) [GFX1-]: glxtest: libEGL missing
+1670671909066	Marionette	INFO	Marionette enabled
+1670671909100	Marionette	INFO	Listening on port 39235
+Read port: 39235
+WebDriver BiDi listening on ws://127.0.0.1:54013
+1670671909794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 26222, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiRCvse/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54013/devtools/browser/d2d0e75f-fbae-4863-864e-e2a6452f6c8d
+[Child 26240, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+1670672250746	Marionette	INFO	Stopped listening on port 39235
+1670672790840	geckodriver	INFO	Listening on 127.0.0.1:46079
+1670672790874	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "42295" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileerYCIV"
+[Parent 27851, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+1670672816475	geckodriver	INFO	Listening on 127.0.0.1:51379
+1670672816496	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "39639" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGRKjsk"
+[Parent 27983, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.16041) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.16041) |[1][GFX1-]: glxtest: libEGL missing (t=3.16064) [GFX1-]: glxtest: libEGL missing
+1670672819842	Marionette	INFO	Marionette enabled
+1670672819870	Marionette	INFO	Listening on port 39475
+Read port: 39475
+WebDriver BiDi listening on ws://127.0.0.1:39639
+1670672820571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 28112, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGRKjsk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39639/devtools/browser/60a69e21-7bd7-4d29-b82a-70e9b0bd4522
+[Child 28156, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yt/l/makehaste_jhash/vjFjLZ8YbF3.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFyGCa3bPrk_J7P5Kxr-8Mtg36ifONB6ZmDfqJ840HpmYRtSspsL2E4AMabwjcVaz0_d6s2NsIj7nMdsPgVU05I, line 73: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Utility 28768, MediaSupervisor #1] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+[Child 28156, MediaDecoderStateMachine #1] WARNING: 6f700e8d00 OpenCubeb() failed to init cubeb: file /build/firefox-GIYmlK/firefox-107.0+build2/dom/media/AudioStream.cpp:281
+[Child 28156, MediaDecoderStateMachine #1] WARNING: Decoder=6f758b7500 [OnMediaSinkAudioError]: file /build/firefox-GIYmlK/firefox-107.0+build2/dom/media/MediaDecoderStateMachine.cpp:3978
+[Child 28156, MediaDecoderStateMachine #1] WARNING: Decoder=6f758b7500 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-GIYmlK/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 28156, MediaDecoderStateMachine #1] WARNING: 6f700e97b0 OpenCubeb() failed to init cubeb: file /build/firefox-GIYmlK/firefox-107.0+build2/dom/media/AudioStream.cpp:281
+[Child 28156, MediaDecoderStateMachine #1] WARNING: Decoder=6f758b7500 [OnMediaSinkAudioError]: file /build/firefox-GIYmlK/firefox-107.0+build2/dom/media/MediaDecoderStateMachine.cpp:3978
+[Child 28156, MediaDecoderStateMachine #1] WARNING: Decoder=6f758b7500 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-GIYmlK/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670673107010	geckodriver	INFO	Listening on 127.0.0.1:34073
+1670673107032	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "46539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXPDW3v"
+[Parent 29148, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.52536) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.52536) |[1][GFX1-]: glxtest: libEGL missing (t=3.52559) [GFX1-]: glxtest: libEGL missing
+1670673110733	Marionette	INFO	Marionette enabled
+1670673110759	Marionette	INFO	Listening on port 46177
+Read port: 46177
+WebDriver BiDi listening on ws://127.0.0.1:46539
+1670673111548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 29292, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXPDW3v/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46539/devtools/browser/f5fc45f4-6ee0-4a2c-be37-316b644630e5
+[Child 29311, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yt/l/makehaste_jhash/vjFjLZ8YbF3.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFyGCa3bPrk_J7P5Kxr-8Mtg36ifONB6ZmDfqJ840HpmYRtSspsL2E4AMabwjcVaz0_d6s2NsIj7nMdsPgVU05I, line 73: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670674310473	geckodriver	INFO	Listening on 127.0.0.1:37871
+1670674311030	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "36103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUHvUvF"
+[Parent 6961, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=5.79402) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=5.79402) |[1][GFX1-]: glxtest: libEGL missing (t=5.79425) [GFX1-]: glxtest: libEGL missing
+1670674317080	Marionette	INFO	Marionette enabled
+1670674317107	Marionette	INFO	Listening on port 39027
+Read port: 39027
+WebDriver BiDi listening on ws://127.0.0.1:36103
+Read port: 39027
+1670674318816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+[Child 7240, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUHvUvF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36103/devtools/browser/76ad63ae-7d8f-4e91-ab2e-4557608b518c
+[Child 7266, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yt/l/makehaste_jhash/vjFjLZ8YbF3.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFyGCa3bPrk_J7P5Kxr-8Mtg36ifONB6ZmDfqJ840HpmYRtSspsL2E4AMabwjcVaz0_d6s2NsIj7nMdsPgVU05I, line 73: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670674958172	geckodriver	INFO	Listening on 127.0.0.1:36403
+1670674958718	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "37211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHjMI0h"
+[Parent 10921, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+1670674965383	geckodriver	INFO	Listening on 127.0.0.1:46503
+1670674965405	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "41465" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexvsSey"
+[Parent 11009, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.66384) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.66384) |[1][GFX1-]: glxtest: libEGL missing (t=3.67687) [GFX1-]: glxtest: libEGL missing
+1670674969380	Marionette	INFO	Marionette enabled
+1670674969431	Marionette	INFO	Listening on port 44327
+Read port: 44327
+WebDriver BiDi listening on ws://127.0.0.1:41465
+1670674970521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 11616, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexvsSey/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+DevTools listening on ws://127.0.0.1:41465/devtools/browser/f9836b6c-7e11-4809-ae81-acb90b18ed00
+[Child 11738, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+[Child 12216, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+1670675006640	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yt/l/makehaste_jhash/vjFjLZ8YbF3.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFyGCa3bPrk_J7P5Kxr-8Mtg36ifONB6ZmDfqJ840HpmYRtSspsL2E4AMabwjcVaz0_d6s2NsIj7nMdsPgVU05I, line 73: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Unable to find target with innerWindowId:4294967299"
+console.error: "Unable to find target with innerWindowId:4294967299"
+console.error: "Unable to find target with innerWindowId:4294967299"
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1004"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1004:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:577:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:686:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1004, column: 0
+console.error: ({})
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1004"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1004:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:577:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:686:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1004, column: 0
+console.error: ({})
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1004"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1004:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:577:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:686:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1004, column: 0
+console.error: ({})
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1004"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1004:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:577:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:686:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1004, column: 0
+console.error: ({})
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
