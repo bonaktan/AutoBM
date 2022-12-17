@@ -3,3 +3,24 @@ REQUIREMENTS:
 - driver for that browser (geckodriver for firefox)
 - termux with ubuntu subsystem installed (if youre a masochist)
 
+
+DEVNOTES: how tf does this work?
+i divided every messages into 5 modes
+Mode 0: normal message
+Mode 1: reply
+Mode 2: media
+Mode 3: reply w/ media
+Mode 4: removed message
+Mode 5: replied removed
+
+currently im processing mode1
+MODE0 - TODO
+
+Mode1:
+    this type of message is made w/ 5 elements
+        1: h4 tag, filter out
+        2: div tag w/ Original Message: [replied on]
+        3: message content
+        4: blank
+        5: Details and Actions
+    

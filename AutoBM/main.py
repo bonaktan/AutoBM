@@ -8,17 +8,17 @@ try: from bs4 import BeautifulSoup as bs4
 except: raise ImportError("bs4 not found")
 import time
 from configparser import ConfigParser
-
+from pdb import set_trace as breakpoint
 
 def configread(): # reads the config.ini files for use
     config = ConfigParser()
     config.read("config.ini")
     return config
 def listofconvo(driver):
-    convo = list(bs4(
-        driver.find_elements(By.XPATH,
-            '//div[@role="grid"]')[1].get_attribute("outerHTML"),
-        "html.parser").findChild().children)
+    convo = driver.find_elements(By.XPATH,
+            '//div[@role="grid"]')[1].get_attribute("outerHTML")
+    convoconvotes= [list(i.findChild().findChild().children) for i in convotes]
+    breakpoint()
 def _printhtml(x): print(x.get_attribute("innerHTML")) # DEBUG FUNCTION
 
 
@@ -41,8 +41,10 @@ def main(debug=False):
         time.sleep(30) # Termux-Specific Delay, should be closer to 15seconds
 
         print("Monitoring")
-        oldmessages = listofconvo(driver)
+        oldconvo = listofconvo(driver)
         while True:
-            newmessages = listofconvo(driver)
+            newmessages = bs4(driver.find_element(By.XPATH,
+                '//div[@role="grid"]')[1].get_attribute("outerHTML"),
+                "html.parser").findChild().children
             if oldmessages != newmessages: print("UPDATE"); newmessages=oldmessages
-if __name__ == "__main__": main(debug=True)
+if __name__ == "__main__": main(debug=False)
