@@ -269,3 +269,166 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1671332138318	geckodriver	INFO	Listening on 127.0.0.1:55109
+1671332138853	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "48859" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXAEL9n"
+*** You are running in headless mode.
+[Parent 20175, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.34539) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.34539) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=4.34657) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.34539) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=4.34657) |[2][GFX1-]: No GPUs detected via PCI (t=4.34709) [GFX1-]: No GPUs detected via PCI
+1671332143883	Marionette	INFO	Marionette enabled
+1671332143939	Marionette	INFO	Listening on port 32967
+Read port: 32967
+WebDriver BiDi listening on ws://127.0.0.1:48859
+1671332144973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 20285, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.34539) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=4.34657) |[2][GFX1-]: No GPUs detected via PCI (t=4.34709) |[3][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=9.87721) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXAEL9n/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48859/devtools/browser/29c00402-1c9f-44ac-85a8-dee7c5ad5694
+[Child 20309, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+1671332185007	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Utility 20724, MediaSupervisor #1] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+[RDD 20720, MediaSupervisor #1] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+1671332230337	Marionette	INFO	Stopped listening on port 32967
+1671332311694	geckodriver	INFO	Listening on 127.0.0.1:57173
+1671332311721	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35769" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepLIDoO"
+*** You are running in headless mode.
+[Parent 21085, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=2.65496) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=2.65496) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=2.66186) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=2.65496) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=2.66186) |[2][GFX1-]: No GPUs detected via PCI (t=2.66219) [GFX1-]: No GPUs detected via PCI
+1671332314990	Marionette	INFO	Marionette enabled
+1671332315033	Marionette	INFO	Listening on port 39807
+Read port: 39807
+WebDriver BiDi listening on ws://127.0.0.1:35769
+1671332315787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671449748918	geckodriver	INFO	Listening on 127.0.0.1:53017
+1671449749561	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevkCZiH"
+*** You are running in headless mode.
+[Parent 23407, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.42256) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.42256) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=4.4228) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.42256) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=4.4228) |[2][GFX1-]: No GPUs detected via PCI (t=4.42329) [GFX1-]: No GPUs detected via PCI
+1671449755696	Marionette	INFO	Marionette enabled
+1671449755819	Marionette	INFO	Listening on port 38897
+Read port: 38897
+Read port: 38897
+WebDriver BiDi listening on ws://127.0.0.1:59899
+1671449757813	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 23563, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=4.42256) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=4.4228) |[2][GFX1-]: No GPUs detected via PCI (t=4.42329) |[3][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=12.5855) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevkCZiH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59899/devtools/browser/2292b4fd-fc40-4c8f-b09c-bee3d1a05213
+[Child 23592, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+1671449799859	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1671449837701	Marionette	INFO	Stopped listening on port 38897
+1671449926028	geckodriver	INFO	Listening on 127.0.0.1:56743
+1671449926544	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45171" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejxGhdR"
+*** You are running in headless mode.
+[Parent 25230, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.67253) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.67253) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=3.67744) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.67253) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=3.67744) |[2][GFX1-]: No GPUs detected via PCI (t=3.67859) [GFX1-]: No GPUs detected via PCI
+1671449930885	Marionette	INFO	Marionette enabled
+1671449930925	Marionette	INFO	Listening on port 35181
+Read port: 35181
+WebDriver BiDi listening on ws://127.0.0.1:45171
+1671449932010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.67253) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=3.67744) |[2][GFX1-]: No GPUs detected via PCI (t=3.67859) |[3][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=9.22056) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[Child 25321, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejxGhdR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45171/devtools/browser/5b6c53e3-07ca-4cb5-ae0b-549b0a9368a1
+[Child 25345, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+1671449972011	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Utility 26006, MediaSupervisor #1] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671452012291	geckodriver	INFO	Listening on 127.0.0.1:53207
+1671452012847	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "36209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile71IfbQ"
+*** You are running in headless mode.
+[Parent 6096, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.75833) [GFX1-]: glxtest: cannot access /sys/bus/pci
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.75833) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=3.75859) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.75833) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=3.75859) |[2][GFX1-]: No GPUs detected via PCI (t=3.75894) [GFX1-]: No GPUs detected via PCI
+1671452017284	Marionette	INFO	Marionette enabled
+1671452017332	Marionette	INFO	Listening on port 45625
+Read port: 45625
+WebDriver BiDi listening on ws://127.0.0.1:36209
+1671452018605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: cannot access /sys/bus/pci (t=3.75833) |[1][GFX1-]: glxtest: Unable to open a connection to the X server (t=3.75859) |[2][GFX1-]: No GPUs detected via PCI (t=3.75894) |[3][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=10.8553) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[Child 6292, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile71IfbQ/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+DevTools listening on ws://127.0.0.1:36209/devtools/browser/e628ed9b-7967-4c50-9b2d-c17b28fce251
+[Child 6320, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.messenger.com."
+1671452071912	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZrc4/yP/l/makehaste_jhash/-lipZI8rCUE.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeESy67Zl7frFujr8qXlzJjR6HsJQgpRiC7oewlCClGILmFuQXI-uZH_34Gh-AD3wWJFpT0Qf5DVMj70mMArIX-o, line 50: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iGIE4/yI/l/makehaste_jhash/yt-3PpD8Xc6.js?_nc_x=kNOzwqEmElG&_nc_eui2=AeFZq2aQ0fnsqvlsOUSNKXITa9kY0gpoWKJr2RjSCmhYoi46upO6nUq5u9ACFifU8P7uCZfu9tVRc__I6jQvQGiw, line 73: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Utility 9509, MediaSupervisor #1] WARNING: read-only dup failed (Permission denied); not using memfd: file /build/firefox-GIYmlK/firefox-107.0+build2/ipc/chromium/src/base/shared_memory_posix.cc:255
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

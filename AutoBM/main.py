@@ -15,9 +15,13 @@ def configread(): # reads the config.ini files for use
     config.read("config.ini")
     return config
 def listofconvo(driver):
-    convo = driver.find_elements(By.XPATH,
-            '//div[@role="grid"]')[1].get_attribute("outerHTML")
-    convoconvotes= [list(i.findChild().findChild().children) for i in convotes]
+    convo = bs4(driver.find_elements(By.XPATH,
+            '//div[@role="grid"]')[1].get_attribute("outerHTML"),
+            "html.parser").findChild().children
+    # first 2 lines of code selects the container containing the convo
+    # last line bs4-ises it, then selects the indiv. chat containers
+    convo = [[i.text for i in chat.findChild().findChild().children]
+             for chat in convo]
     breakpoint()
 def _printhtml(x): print(x.get_attribute("innerHTML")) # DEBUG FUNCTION
 
@@ -43,8 +47,6 @@ def main(debug=False):
         print("Monitoring")
         oldconvo = listofconvo(driver)
         while True:
-            newmessages = bs4(driver.find_element(By.XPATH,
-                '//div[@role="grid"]')[1].get_attribute("outerHTML"),
-                "html.parser").findChild().children
-            if oldmessages != newmessages: print("UPDATE"); newmessages=oldmessages
+            newconvo = listofconvo(driver)
+            if oldconvo != newconvo: print("UPDATE"); oldconvo = newconvo
 if __name__ == "__main__": main(debug=False)
