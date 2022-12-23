@@ -1,0 +1,4 @@
+0001 - Slow Reads [To Be Resolved]
+    when chats are going too fast, the page gets stuck and doesnt go with the scroll
+0002 - Too Slow of Boot [To Be Resolved]
+    when internet is slow and page hasnt rendered yet, program throws an IndexError

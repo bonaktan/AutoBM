@@ -21,8 +21,11 @@ def listofconvo(driver):
     # first 2 lines of code selects the container containing the convo
     # last line bs4-ises it, then selects the indiv. chat containers
     # breakpoint()
-    return [[i.text for i in chat.findChild().findChild().children if i.text != ""]
+    convo = [[i.text.strip() for i in chat.findChild().findChild().children
+              if i.text != ""]
              for chat in convo] # NO MEDIA, IMPROVE
+    convo = [[i[0], i[-2]] for i in convo if len(i) >= 3]
+    return convo
 def _printhtml(x): print(x.get_attribute("innerHTML")) # DEBUG FUNCTION
 
 
@@ -53,9 +56,12 @@ def main(debug=False):
         try:
             convo = listofconvo(driver)
             old = convo[-1]
-            for _ in convo: print(_)
             while True:
                 convo = [i for i in listofconvo(driver)]
-                if convo[-1] != old: print(convo[-1]); old=convo[-1]
-        except: post_mortem()
+                if convo[-1] != old:
+                    print(f"{convo[-1][0]}: {convo[-1][1]}"); old=convo[-1]
+        except:
+            import traceback
+            traceback.format_exc()
+            post_mortem()
 if __name__ == "__main__": main(debug=False)
