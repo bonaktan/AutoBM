@@ -2,25 +2,10 @@ REQUIREMENTS:
 - browser (although hardcoded to use firefox now, will be updated later)
 - driver for that browser (geckodriver for firefox)
 - termux with ubuntu subsystem installed (if youre a masochist)
-
-
-DEVNOTES: how tf does this work?
-i divided every messages into 5 modes
-Mode 0: normal message
-Mode 1: reply
-Mode 2: media
-Mode 3: reply w/ media
-Mode 4: removed message
-Mode 5: replied removed
-
-currently im processing mode1
-MODE0 - TODO
-
-Mode1:
-    this type of message is made w/ 5 elements
-        1: h4 tag, filter out
-        2: div tag w/ Original Message: [replied on]
-        3: message content
-        4: blank
-        5: Details and Actions
-    
+- requests module (updates w/o recloning)
+HOW TO INSTALL
+1. install firefox (although chrome support will be out soon, no eta)
+2. install bs4==0.0.1 and selenium==4.7.2 (suggested to do this in a venv)
+3. install geckodriver to PATH
+4. clone this repo
+5. run
