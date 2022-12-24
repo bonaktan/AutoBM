@@ -10,4 +10,5 @@ response = str(input())
 if response.lower() != "y": print("Aborting"); quit()
 
 with open("AutoBM/main.py", "w") as m: m.write(main.text)
-with open("update.py", "w") as u: u.write(update.text)
+with open("update.py", "w") as m: u.write(update.text)
+
