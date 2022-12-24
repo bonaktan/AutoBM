@@ -10,6 +10,8 @@ import time
 from configparser import ConfigParser
 from pdb import set_trace as breakpoint
 from pdb import post_mortem
+import logging
+
 def configread(): # reads the config.ini files for use
     config = ConfigParser()
     config.read("config.ini")
@@ -29,30 +31,34 @@ def listofconvo(driver):
 def _printhtml(x): print(x.get_attribute("innerHTML")) # DEBUG FUNCTION
 
 
-def main(debug=False):
+def main():
     # for termux, make sure vncserver is working properly,
+    config = configread(); debug = config["Developer"].getboolean("Debug")
     options = Options(); options.headless = not debug
-    print(f"Launching Firefox {'in debug' if debug else ''}")
+    logging.basicConfig(level=logging.INFO if debug else logging.WARNING)
+
+    logging.info(f"Launching Firefox {'in debug' if debug else ''}")
     with webdriver.Firefox(options=options) as driver:
         driver.install_addon("plugins/ublock_origin.xpi", temporary=True) # DEBUG
-        print("Launched Firefox")
 
         driver.get("https://www.messenger.com/login")
-        print("Fetched Messenger")
-        config = configread()
+        logging.info("Fetched Messenger")
         form = driver.find_element(By.ID, "login_form") # returns a <form> element
         driver.execute_script(
             "arguments[0].value = arguments[1]; arguments[2].value = arguments[3];",
             form.find_element(By.NAME, "email"), config["Login"]["Email"],
             form.find_element(By.NAME, "pass"), config["Login"]["Password"])
-        print("Signing In Messenger")
+        logging.info("Signing In")
         form.submit()
         time.sleep(5)
-        print("Loading Converdation")
-        driver.get("https://www.messenger.com/t/4576805812442937")
-        time.sleep(45) # Termux-Specific Delay, should be closer to 15seconds
 
-        print("Monitoring")
+        logging.info("Loading Converdation")
+        driver.get(config["Chats"]["MonitorChat"])
+        while True:
+            try: driver.find_elements(By.XPATH, "//div[@role='grid']")[1]
+            except: continue
+            break
+        logging.info("Monitoring")
         try:
             convo = listofconvo(driver)
             old = convo[-1]
@@ -61,4 +67,4 @@ def main(debug=False):
                 if convo[-1] != old:
                     print(f"{convo[-1][0]}: {convo[-1][1]}"); old=convo[-1]
         except: post_mortem()
-if __name__ == "__main__": main(debug=False)
+if __name__ == "__main__": main()
