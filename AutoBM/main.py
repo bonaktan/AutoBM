@@ -60,8 +60,5 @@ def main(debug=False):
                 convo = [i for i in listofconvo(driver)]
                 if convo[-1] != old:
                     print(f"{convo[-1][0]}: {convo[-1][1]}"); old=convo[-1]
-        except:
-            import traceback
-            traceback.format_exc()
-            post_mortem()
+        except: post_mortem()
 if __name__ == "__main__": main(debug=False)
