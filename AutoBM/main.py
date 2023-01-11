@@ -12,6 +12,9 @@ from pdb import set_trace as breakpoint
 from pdb import post_mortem
 import logging
 
+def media_subroutine(message): # Temporary Code
+    # Assuming this already returned elem[1]
+    return list(message.children)[1].img
 def configread(): # reads the config.ini files for use
     config = ConfigParser()
     config.read("config.ini")
@@ -19,14 +22,15 @@ def configread(): # reads the config.ini files for use
 def listofconvo(driver):
     convo = bs4(driver.find_elements(By.XPATH,
             '//div[@role="grid"]')[1].get_attribute("outerHTML"),
-            "html.parser").findChild().children
+            "lxml").findChild().children
     # first 2 lines of code selects the container containing the convo
     # last line bs4-ises it, then selects the indiv. chat containers
     # breakpoint()
     convo = [[i.text.strip() for i in chat.findChild().findChild().children
               if i.text != ""]
-             for chat in convo] # NO MEDIA, IMPROVE
-    convo = [[i[0], i[-2]] for i in convo if len(i) >= 3]
+             for chat in convo] # DEPRECATE
+    # VITALXPATH = message/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/span
+    convo = [[i[0], i[-2]] for i in convo if len(i) >= 3] # DEPRECATE
     return convo
 def _printhtml(x): print(x.get_attribute("innerHTML")) # DEBUG FUNCTION
 
